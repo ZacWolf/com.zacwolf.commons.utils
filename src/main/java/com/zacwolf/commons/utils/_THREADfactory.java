@@ -33,8 +33,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author Zac Morris <zac@zacwolf.com>
- * @version 1.3
+ * @author Zac Morris <a href="mailto:zac@zacwolf.com">zac@zacwolf.com</a>
+ * @version 2.0
  * @since Java1.8
  */
 public class _THREADfactory {

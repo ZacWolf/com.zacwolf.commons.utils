@@ -2,7 +2,7 @@
  *
  * Constants used to define the US State abbreviations
  *
- * Copyright (C) 2021 Zac Morris
+ * Copyright (C) 2021 Zac Morris <a href="mailto:zac@zacwolf.com">zac@zacwolf.com</a>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -30,8 +30,8 @@ import java.util.ResourceBundle;
 import java.util.ResourceBundle.Control;
 
 /**
- * @author Zac Morris <zac@zacwolf.com>
- * @version 1.3
+ * @author Zac Morris
+ * @version 2.0
  * @since Java1.8
  */
 public class UTF8_Control extends Control {
