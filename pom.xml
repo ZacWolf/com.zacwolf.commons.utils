@@ -4,23 +4,23 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.zacwolf</groupId>
-	<artifactId>com.zacwolf.commons</artifactId>
+	<groupId>com.zacwolf.commons</groupId>
+	<artifactId>com.zacwolf.commons.utils</artifactId>
 	<version>2.0</version>
 	
 	<name>ZacWolf Commons</name>
 	<description>Common Utility classes I've developed over the years</description>
-	<url>https://github.com/ZacWolf/com.zacwolf.commons</url>
+	<url>https://github.com/ZacWolf/com.zacwolf.commons.utils</url>
 	<organization>
 		<name>ZacWolf</name>
 		<url>https://www.zacwolf.com</url>
 	</organization>
 	<issueManagement>
-		<url>https://github.com/ZacWolf/com.zacwolf.commons/issues</url>
+		<url>https://github.com/ZacWolf/com.zacwolf.commons.utils/issues</url>
 		<system>GitHub</system>
 	</issueManagement>
 	<scm>
-		<connection>scm:git:https://github.com/ZacWolf/com.zacwolf.commons.git</connection>
+		<connection>scm:git:https://github.com/ZacWolf/com.zacwolf.commons.utils.git</connection>
 		<url>https://github.com/ZacWolf/com.zacwolf.commons</url>
 		<tag>HEAD</tag>
 	</scm>
@@ -115,7 +115,21 @@
 		</plugins>
 	</build>
 	<dependencies>
-
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>[2.10.1,)</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>[1.13.1,)</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>[3.8,)</version>
+		</dependency>
 	</dependencies>
 
 </project>
