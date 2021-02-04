@@ -4,7 +4,7 @@
  *
 	Licensed under the MIT License (MIT)
 
-	Copyright (c) 2021 Zac Morris
+	Copyright (c) 2021 Zac Morris <a href="mailto:zac@zacwolf.com">zac@zacwolf.com</a>
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
